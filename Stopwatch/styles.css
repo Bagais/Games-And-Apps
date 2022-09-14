@@ -1,0 +1,53 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	width: 100%;
+	height: 300px;
+	background-color: gray;
+	font-family: monospace;
+}
+
+h1 {
+	font-size: 40px;
+	letter-spacing: 5px;
+	font-family: cursive sans-serif;
+}
+
+h2 {
+	font-size: 25px;
+	font-style: italic;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: darkgoldenrod;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: lightblue;
+	border-color: lightblue;
+}
+
+.wrapper {
+	background-color: darkgoldenrod;
+	width: 450px;
+	margin: auto;
+	padding: 50px 0;
+	border-radius: 20px;
+}
+
+#seconds {
+	font-size: 70px;
+}
+
+#tens, p {
+	font-size: 30px;
+}
